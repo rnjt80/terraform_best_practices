@@ -35,6 +35,8 @@ jobs:
     - name: Terraform Init
       run : |
         pwd
+        ls -l
+        ls -l env/dev/
         terraform init
         
     # Checks that all Terraform configuration files adhere to a canonical format
